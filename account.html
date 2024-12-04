@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Login Form</title>
+    <link rel="stylesheet" href="account.css">
+</head>
+
+<body id="aa">
+    <div id="blur">
+
+
+        <div id="pain">
+
+            <div id="pain1">
+                <h1 id="p1">Create an Account</h1>
+                <h3 id="p2">Enter your Personal Details</h3>
+            </div>
+            <div id="pain2">
+                <form action="">
+                    <div id="nand">
+                        <div id="name">
+                            <label class="p3" for="first">
+                                Firstname:
+                            </label>
+                            <input class="p5" type="text" id="first" name="first" placeholder="Enter your firstname"
+                                autocomplete="on" required autofocus>
+
+                            <label class="p3" for="Middlename">
+                                Middlename:
+                            </label>
+                            <input class="p5" type="text" id="Middlename" name="Middlename"
+                                placeholder="Enter your middlename" autocomplete="on">
+                            <label class="p3" for="lastname">
+                                lastname:
+                            </label>
+                            <input class="p5" type="text" id="lastname" name="lastname"
+                                placeholder="Enter your lastname" autocomplete="on" required>
+                        </div>
+                        <div id="Phone">
+                            <label class="p3" for="Phone">
+                                Phone:
+                            </label>
+                            <input class="p5" type="tel" id="Phone" name="Phone" placeholder="91+0123456789"
+                                pattern="[0-9]{2}+[0-9]{10}" required>
+                            <label id="p3" for="Dateofbirth">
+                                Date of Birth:
+                            </label>
+                            <input class="p5" type="date" id="Dateofbirth" name="Dateofbirth" required>
+                            <label class="p3" for="Gender">
+                                Gender:
+                            </label>
+                            <select class="p5" type="Gender" id="Gender" name="Gender" required>
+                                <option value="Male">Male</option>
+                                <option value="ale">Female</option>
+                                <option value="Male">Other</option>
+                            </select>
+                        </div>
+                        <div id="email">
+                            <label class="p3" for="Email">
+                                Email:
+                            </label>
+                            <input class="p5" type="email" id="Email" name="Email" placeholder="abcde@random.com"
+                                required autocomplete="on">
+
+                            <label class="p3" for="Password">
+                                Password:
+                            </label>
+                            <input class="p5" type="password" id="Password" name="Password"
+                                placeholder="Create a strong Password" required>
+                            <label class="p3" for="confirmPassword">
+                                confirmPassword:
+                            </label>
+                            <input class="p5" type="password" id="confirmPassword" name="confirmPassword" required>
+                        </div>
+                    </div>
+
+                    <div class="wrap">
+                        <button type="submit">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+  
+    <div id="b">
+        <div id="ba">
+            <button id="google" style="border: 2px solid #4acf50; border-radius: 20px;"
+                onclick="location.href='google.com';">
+                <div class="b1">
+                    <img src="google2.png" alt="google">
+                    <p>Continue with Google</p>
+                </div>
+            </button>
+            <div id="b2"> Already have an account?
+                <a class="back" href="login.html">
+                    Login
+                </a>
+                <br>
+                <a class="back" href="/">Back to home</a>
+            </div>
+            <button id="facebook" style="border: 2px solid #4acf50; border-radius: 20px;"
+                onclick="location.href='facebook.com';">
+                <div class="b1">
+                    <img src="facebook1.png" alt="facebook">
+                    <p>Continue with facebook</p>
+                </div>
+            </button>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

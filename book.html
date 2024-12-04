@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>booking page</title>
+    <link rel="stylesheet" href="book.css">
+    <link rel="icon" href="Screenshot_18.png">
+</head>
+
+<body id="book1">
+
+    <div class="book2">
+        <fieldset id="book3">
+            <legend>Book your seats</legend>
+
+
+            <form action="">
+                <div id="s">
+                    <div id="p">
+                        <label for="from" id="a">
+                            from:
+                        </label>
+                        <input type="text" id="from" list="fro" name="from" placeholder="A" required autofocus="on">
+                        <datalist id="fro">
+                            <option>banglore</option>
+                            <option>bagalkot</option>
+                            <option>hubli</option>
+                        </datalist>
+
+                        <label for="to" id="b">
+                            to:
+                        </label>
+                        <input type="text" id="to" list="fro" name="to" placeholder="B" required>
+
+                        <label for="date" id="c">
+                            date:
+                        </label>
+
+                        <input type="date" id="date" name="date" placeholder="B" min="2024-11-18" max="2024-11-25"
+                            required>
+                    </div>
+                    <div id="q">
+                        <label for="time" id="d">
+                            time:
+                        </label>
+                        <input type="time" id="time" name="time" placeholder="B" min="" max="" required>
+
+                        <label for="numberofadults" id="e">
+                            Number of adults:
+                        </label>
+                        <input type="number" id="numberofadults" name="numberofadults" placeholder="c" min="1" max="20"
+                            required>
+                        <label for="numberofchildren" id="f">
+                            Number of children:
+                        </label>
+                        <input type="number" id="numberofchildren" name="numberofchildren" placeholder="c" min="0"
+                            max="20" required>
+                    </div>
+                </div>
+                <div id="r">
+                    <label for="service-type" id="g" class="wrap">Select your preference:</label>
+                    <select id="service-type" name="service-type" required>
+                        <option value="ac">AC</option>
+                        <option value="non_ac">Non-AC</option>
+                    </select>
+
+
+                    <div class="wrap">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </fieldset>
+        <div id="t">
+            <p style="text-align: center;font-weight: bolder;">Not registered?
+                <a href="account.html" style="text-decoration: none;color: #4ca750;">
+                    Create an account
+                </a>
+                <br>
+                <a href="/" style="text-decoration: none;color: #4ca750;">Back to home</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
